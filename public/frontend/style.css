@@ -1,0 +1,33 @@
+#prev, #next {
+    cursor: pointer;
+    font-size: 1.5rem;
+    background-color: #6b46c1;
+}
+
+#prev:hover, #next:hover {
+    background-color: #805ad5; 
+}
+
+header {
+    position: fixed; /* Menjaga navbar tetap di atas saat scroll */
+    top: 0; /* Menempel di atas halaman */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Pastikan navbar berada di atas konten lainnya */
+}
+
+body {
+    padding-top: 60px; /* Atur padding sesuai tinggi navbar */
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-img-top:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
